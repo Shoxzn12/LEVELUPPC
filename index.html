@@ -1,0 +1,434 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LEVEL UP PC| Tienda de PC Gamer, Componentes y Periféricos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <div class="header-content">
+          <div class="logo">
+            <svg width="120" height="40" viewBox="0 0 120 40" fill="none">
+              <text x="0" y="25" font-family="Poppins" font-weight="800" font-size="18" fill="#9FEF00">LEVELUP</text>
+              <text x="0" y="37" font-family="Poppins" font-weight="600" font-size="10" fill="#FFF">PC</text>
+            </svg>
+          </div>
+
+          <nav class="nav" id="mainNav">
+            <ul class="nav-list">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#tienda">Tienda</a></li>
+              <li class="dropdown">
+                <a href="#categorias">Categorías <span class="arrow">▼</span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#computadores">Computadores</a></li>
+                  <li><a href="#portatiles">Portátiles Gamer</a></li>
+                  <li><a href="#tarjetas">Tarjetas Gráficas</a></li>
+                  <li><a href="#monitores">Monitores</a></li>
+                  <li><a href="#perifericos">Periféricos</a></li>
+                  <li><a href="#cajas">Cajas para PC</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#marcas">Marcas <span class="arrow">▼</span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#nvidia">NVIDIA</a></li>
+                  <li><a href="#asus">Asus</a></li>
+                  <li><a href="#msi">MSI</a></li>
+                  <li><a href="#gigabyte">Gigabyte</a></li>
+                  <li><a href="#corsair">Corsair</a></li>
+                </ul>
+              </li>
+              <li><a href="#ofertas" class="highlight">Ofertas</a></li>
+              <li><a href="#eventos">Eventos</a></li>
+              <li><a href="#contacto">Contáctenos</a></li>
+              <li><a href="#precios">Lista De Precios</a></li>
+            </ul>
+          </nav>
+
+          <div class="header-actions">
+            <button class="search-btn" aria-label="Buscar">
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                <circle cx="9" cy="9" r="6" stroke="currentColor" stroke-width="2"/>
+                <path d="M13.5 13.5L17 17" stroke="currentColor" stroke-width="2"/>
+              </svg>
+            </button>
+            <button class="cart-btn" aria-label="Carrito">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path d="M9 2L7.17 4H3C1.9 4 1 4.9 1 6V18C1 19.1 1.9 20 3 20H21C22.1 20 23 19.1 23 18V6C23 4.9 22.1 4 21 4H16.83L15 2H9Z" stroke="currentColor" stroke-width="2"/>
+              </svg>
+              <span class="cart-count">0</span>
+            </button>
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Menú">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Ofertas Banner -->
+    <div class="ofertas-banner">
+      <span>OFERTAS</span>
+      <h2>HAZ CLICK Y DESCÚBRELAS</h2>
+      <span>OCULTAS</span>
+    </div>
+
+    <!-- Hero Slider -->
+    <section class="hero-slider">
+      <div class="slider-container">
+        <div class="slide active">
+          <div class="slide-content">
+            <div class="slide-text">
+              <h1>Raid Ready</h1>
+              <p>Compra una tarjeta gráfica GeForce RTX Serie 50 seleccionada* y obtén el bundle ARC Raiders.</p>
+              <button class="btn-primary">Conoce Más</button>
+            </div>
+            <div class="slide-image">
+              <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?w=800" alt="Gaming Setup">
+            </div>
+          </div>
+        </div>
+        <button class="slider-btn prev" aria-label="Anterior">‹</button>
+        <button class="slider-btn next" aria-label="Siguiente">›</button>
+      </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="main-content">
+
+      <!-- Video Section -->
+      <section class="video-section">
+        <div class="container">
+          <div class="video-wrapper">
+            <iframe width="100%" height="400" src="https://www.youtube.com/embed/fkcTvVtIPE8" title="GIGABYTE GAMING A16" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <h2 class="section-title">PARTES Y COMPONENTES PARA ARMAR TU SETUP PERSONALIZADO...</h2>
+        </div>
+      </section>
+
+      <!-- Featured Categories -->
+      <section class="featured-categories">
+        <div class="container">
+          <div class="category-grid" id="categoryGrid">
+            <!-- Categories will be loaded here by JavaScript -->
+          </div>
+        </div>
+      </section>
+
+      <!-- Products Section -->
+      <section class="products-section">
+        <div class="container">
+          <h2 class="section-title">Productos Mas Vendidos</h2>
+          <p class="section-subtitle">Conoce los productos mas vendidos que tenemos para ti</p>
+          <div class="products-grid" id="productsGrid">
+            <!-- Products will be loaded here by JavaScript -->
+          </div>
+        </div>
+      </section>
+
+      <!-- Brands Carousel -->
+      <section class="brands-section">
+        <div class="container">
+          <div class="brands-carousel" id="brandsCarousel">
+            <!-- Brand logos will be loaded here -->
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>Enlaces Rápidos</h3>
+            <ul>
+              <li><a href="#contacto">Contáctenos</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h3>LEVEL UP PC®</h3>
+            <p>Aviso de Privacidad</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Chatbot Widget -->
+    <div id="chatbot" class="chatbot">
+      <button class="chatbot-toggle" id="chatbotToggle" aria-label="Abrir chat">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+          <path d="M20 2H4C2.9 2 2 2.9 2 4V22L6 18H20C21.1 18 22 17.1 22 16V4C22 2.9 21.1 2 20 2Z" fill="currentColor"/>
+        </svg>
+        <span class="chatbot-badge" id="chatBadge">1</span>
+      </button>
+
+      <div class="chatbot-window" id="chatbotWindow">
+        <div class="chatbot-header">
+          <div class="chatbot-header-info">
+            <h3>Asistente Speed Logic</h3>
+            <span class="chatbot-status">En línea</span>
+          </div>
+          <button class="chatbot-close" id="chatbotClose" aria-label="Cerrar chat">×</button>
+        </div>
+
+        <div class="chatbot-messages" id="chatMessages">
+          <!-- Messages will be added here -->
+        </div>
+
+        <div class="chatbot-suggestions" id="chatSuggestions">
+          <!-- Suggestions will be added here -->
+        </div>
+
+        <div class="chatbot-input">
+          <input type="text" id="chatInput" placeholder="Escribe tu mensaje..." />
+          <button id="chatSend" aria-label="Enviar mensaje">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+              <path d="M2 10L18 2L10 18L9 11L2 10Z" fill="currentColor"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Checkout Modal -->
+    <div id="checkoutModal" class="modal">
+      <div class="modal-overlay" id="checkoutOverlay"></div>
+      <div class="modal-content checkout-modal">
+        <div class="modal-header">
+          <h2>Finalizar Compra</h2>
+          <button class="modal-close" id="closeCheckout" aria-label="Cerrar">×</button>
+        </div>
+
+        <div class="modal-body">
+          <div class="checkout-summary">
+            <h3>Resumen de la Orden</h3>
+            <div id="checkoutItems" class="checkout-items">
+              <!-- Cart items will be loaded here -->
+            </div>
+            <div class="checkout-total">
+              <span>Total:</span>
+              <strong id="checkoutTotal">$0</strong>
+            </div>
+          </div>
+
+          <div class="checkout-form">
+            <h3>Información de Contacto</h3>
+            <form id="paymentForm">
+              <div class="form-group">
+                <label for="customerName">Nombre Completo *</label>
+                <input type="text" id="customerName" required />
+              </div>
+
+              <div class="form-group">
+                <label for="customerEmail">Correo Electrónico *</label>
+                <input type="email" id="customerEmail" required />
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="customerPhone">Teléfono *</label>
+                  <input type="tel" id="customerPhone" required />
+                </div>
+
+                <div class="form-group">
+                  <label for="customerDocument">Cédula *</label>
+                  <input type="text" id="customerDocument" required />
+                </div>
+              </div>
+
+              <div class="form-group">
+                  <label for="customerCountry">Pais *</label>
+                  <input type="text" id="customerDocument" required />
+                </div>
+              </div>
+
+              <div class="form-group">
+                  <label for="customerCity">Ciudad *</label>
+                  <input type="text" id="customerDocument" required />
+                </div>
+              </div>
+
+              <div class="form-group">
+                  <label for="customerNeighborhood">Barrio *</label>
+                  <input type="text" id="customerDocument" required />
+                </div>
+              </div>
+
+              <div class="form-group">
+                  <label for="customerDirection">Direccion *</label>
+                  <input type="text" id="customerDocument" required />
+                </div>
+              </div>
+              
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="customerCodePostal">Codigo Postal*</label>
+                  <input type="tel" id="customerPhone" required />
+                </div>
+
+
+              <h3>Método de Pago</h3>
+              <div class="payment-methods" id="paymentMethods">
+                <!-- Payment methods will be loaded here -->
+              </div>
+
+              <div id="cardFields" class="card-fields" style="display: none;">
+                <div class="form-group">
+                  <label for="cardNumber">Número de Tarjeta *</label>
+                  <input type="text" id="cardNumber" placeholder="1234 5678 9012 3456" maxlength="19" />
+                </div>
+
+                <div class="form-group">
+                  <label for="cardHolder">Titular de la Tarjeta *</label>
+                  <input type="text" id="cardHolder" />
+                </div>
+
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="cardExpiry">Fecha Exp. *</label>
+                    <input type="text" id="cardExpiry" placeholder="MM/AA" maxlength="5" />
+                  </div>
+
+                  <div class="form-group">
+                    <label for="cardCVV">CVV *</label>
+                    <input type="text" id="cardCVV" placeholder="123" maxlength="4" />
+                  </div>
+                </div>
+              </div>
+
+              <div class="form-actions">
+                <button type="button" class="btn-secondary" id="cancelCheckout">Cancelar</button>
+                <button type="submit" class="btn-primary" id="submitPayment">
+                  <span id="paymentButtonText">Pagar Ahora</span>
+                  <span id="paymentLoader" class="payment-loader" style="display: none;">
+                    Procesando...
+                  </span>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Cart Sidebar -->
+    <div id="cartSidebar" class="cart-sidebar">
+      <div class="cart-sidebar-overlay" id="cartOverlay"></div>
+      <div class="cart-sidebar-content">
+        <div class="cart-sidebar-header">
+          <h2>Mi Carrito</h2>
+          <button class="cart-sidebar-close" id="closeCart" aria-label="Cerrar">×</button>
+        </div>
+
+        <div class="cart-sidebar-items" id="cartSidebarItems">
+          <!-- Cart items will be loaded here -->
+        </div>
+
+        <div class="cart-sidebar-footer">
+          <div class="cart-total">
+            <span>Total:</span>
+            <strong id="cartSidebarTotal">$0</strong>
+          </div>
+          <button class="btn-primary" id="proceedToCheckout">Proceder al Pago</button>
+        </div>
+      </div>
+    </div>
+
+    <script type="module">
+      // Funciones para carrito de compras
+      let cartItems = [];
+      const cartSidebar = document.getElementById("cartSidebar");
+      const cartOverlay = document.getElementById("cartOverlay");
+      const cartCount = document.querySelector(".cart-count");
+      const cartTotal = document.getElementById("cartSidebarTotal");
+
+      document.querySelector(".cart-btn").addEventListener("click", () => {
+        cartSidebar.style.display = "block";
+        cartOverlay.style.display = "block";
+      });
+
+      document.getElementById("closeCart").addEventListener("click", () => {
+        cartSidebar.style.display = "none";
+        cartOverlay.style.display = "none";
+      });
+
+      function addToCart(product) {
+        cartItems.push(product);
+        updateCart();
+      }
+
+      function updateCart() {
+        cartCount.textContent = cartItems.length;
+        const total = cartItems.reduce((acc, item) => acc + item.price, 0);
+        cartTotal.textContent = `$${total}`;
+      }
+
+      document.getElementById("proceedToCheckout").addEventListener("click", () => {
+        document.getElementById("checkoutModal").style.display = "block";
+        updateCheckoutSummary();
+      });
+
+      document.getElementById("closeCheckout").addEventListener("click", () => {
+        document.getElementById("checkoutModal").style.display = "none";
+      });
+
+      function updateCheckoutSummary() {
+        const checkoutItems = document.getElementById("checkoutItems");
+        checkoutItems.innerHTML = '';
+        cartItems.forEach(item => {
+          const itemElement = document.createElement("div");
+          itemElement.textContent = `${item.name} - $${item.price}`;
+          checkoutItems.appendChild(itemElement);
+        });
+
+        const total = cartItems.reduce((acc, item) => acc + item.price, 0);
+        document.getElementById("checkoutTotal").textContent = `$${total}`;
+      }
+
+      // Funciones para el chatbot
+      document.getElementById("chatbotToggle").addEventListener("click", () => {
+        document.getElementById("chatbotWindow").style.display = "block";
+      });
+
+      document.getElementById("chatbotClose").addEventListener("click", () => {
+        document.getElementById("chatbotWindow").style.display = "none";
+      });
+
+      document.getElementById("chatSend").addEventListener("click", () => {
+        const userMessage = document.getElementById("chatInput").value;
+        if (userMessage.trim() !== "") {
+          const messageElement = document.createElement("div");
+          messageElement.textContent = `Tú: ${userMessage}`;
+          document.getElementById("chatMessages").appendChild(messageElement);
+
+          setTimeout(() => {
+            const botMessage = document.createElement("div");
+            botMessage.textContent = `Bot: Respuesta automatizada`;
+            document.getElementById("chatMessages").appendChild(botMessage);
+          }, 1000);
+
+          document.getElementById("chatInput").value = '';
+        }
+      });
+
+      // Funciones para menú móvil
+      document.getElementById("mobileMenuBtn").addEventListener("click", () => {
+        document.getElementById("mainNav").classList.toggle("open");
+      });
+    </script>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

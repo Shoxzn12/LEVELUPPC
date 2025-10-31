@@ -1,0 +1,114 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Tarjeta De Video Gigabyte Geforce RTX-4060 TI",
+      "price": 1695000,
+      "category": "graphics-cards",
+      "brand": "Gigabyte",
+      "image": "https://static.gigabyte.com/StaticFile/Image/Global/ce446712e15a2d79ec280fff9bae4dc1/Product/38542"
+    },
+    {
+      "id": 2,
+      "name": "Tarjeta De Video Gigabyte Geforce RTX-5050",
+      "price": 1335000,
+      "category": "graphics-cards",
+      "brand": "Gigabyte",
+      "image": "https://images.unsplash.com/photo-1587202372634-32705e3bf49c?w=400"
+    },
+    {
+      "id": 3,
+      "name": "Monitor Led LG 32 VA UHD 4K",
+      "price": 1575000,
+      "category": "monitors",
+      "brand": "LG",
+      "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=400"
+    },
+    {
+      "id": 4,
+      "name": "Disipador Arctic Freezer 36",
+      "price": 173000,
+      "category": "cooling",
+      "brand": "Arctic",
+      "image": "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?w=400"
+    },
+    {
+      "id": 5,
+      "name": "Gafas VR Meta Quest 3 512GB",
+      "price": 3199000,
+      "category": "accessories",
+      "brand": "Meta",
+      "image": "https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac?w=400"
+    },
+    {
+      "id": 6,
+      "name": "Board Asus Prime B650M-A II",
+      "price": 579000,
+      "category": "motherboards",
+      "brand": "Asus",
+      "image": "https://images.unsplash.com/photo-1555680202-c86f0e12f086?w=400"
+    },
+    {
+      "id": 7,
+      "name": "Board Gigabyte B840M DS3H",
+      "price": 655000,
+      "category": "motherboards",
+      "brand": "Gigabyte",
+      "image": "https://images.unsplash.com/photo-1562976540-1502c2145186?w=400"
+    },
+    {
+      "id": 8,
+      "name": "PC Gamer Intel Core i7 RTX 4060",
+      "price": 4500000,
+      "category": "computers",
+      "brand": "Speed Logic",
+      "image": "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?w=400"
+    }
+  ],
+  "categories": [
+    {
+      "id": "computers",
+      "name": "Computadores",
+      "image": "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?w=600"
+    },
+    {
+      "id": "laptops",
+      "name": "Portátiles Gamer",
+      "image": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=600"
+    },
+    {
+      "id": "graphics-cards",
+      "name": "Tarjetas Gráficas",
+      "image": "https://images.unsplash.com/photo-1591488320449-011701bb6704?w=600"
+    },
+    {
+      "id": "monitors",
+      "name": "Monitores",
+      "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=600"
+    },
+    {
+      "id": "peripherals",
+      "name": "Periféricos",
+      "image": "https://images.unsplash.com/photo-1538481199705-c710c4e965fc?w=600"
+    },
+    {
+      "id": "cases",
+      "name": "Cajas para PC",
+      "image": "https://images.unsplash.com/photo-1587202372583-49330a15584d?w=600"
+    }
+  ],
+  "brands": [
+    "NVIDIA",
+    "Cougar",
+    "Kingston",
+    "Redragon",
+    "XPG",
+    "Logitech",
+    "Gigabyte",
+    "Corsair",
+    "MSI",
+    "Cooler Master",
+    "Asus",
+    "HyperX"
+  ]
+}
